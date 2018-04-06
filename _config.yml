@@ -1,18 +1,13 @@
-# Site settings
-title: J Sha blog
-email: 
-description: "Musings of a Machine Learning Practioner"
-baseurl: ""
-url: "https://docjsha.github.io"
-twitter_username: docjsha
-github_username:  docjsha
+# General Jekyll Config
+highlighter: rogue
+name: J Sha
+description: Coding Experiments
+url: "http://docjsha.github.io/"
+lsi: fale
+
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
 # Build settings
-markdown: kramdown
 permalink: pretty
 
-highlighter: rouge
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
+theme: jekyll-theme-tactile
