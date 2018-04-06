@@ -1,5 +1,6 @@
 # General Jekyll Config
 highlighter: rogue
+title: Test
 name: J Sha
 description: Coding Experiments
 url: "https://docjsha.github.io/"
